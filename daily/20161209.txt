@@ -1,0 +1,61 @@
+New Things Today
+
+git usage
+
+$ git remote -v
+print all your remotes' fetch/push URLs.
+
+refs:
+http://stackoverflow.com/questions/4089430/how-can-i-determine-the-url-that-a-local-git-repository-was-originally-cloned-fr
+
+
+$ git clone --bare my_project my_project.git
+$ scp -r my_project.git user@git.example.com:/opt/git
+create a git repository in the remote server
+now other user who have ssh access to the same server which has read-access to /opt/git directory can clone your repository by running
+$ git clone user@git.example.com:/opt/git/my_project.git
+
+refs:
+http://stackoverflow.com/questions/6648995/how-to-create-a-remote-git-repository-from-a-local-one
+
+
+markdown usage
+
+_italic_
+
+**bold**
+
+#header one
+###header three
+
+[link text](link address)
+inline link
+
+[link text][ref tag]
+[ref tag]: link address
+reference link
+
+![alt text](image link address)
+inline image
+
+![alt text][ref tag]
+[ref tag]: image link address
+reference image
+
+>block quote
+>
+>another block quote
+
+1. item1
+ some paragraph
+2. item2
+ * sub item1
+ * sub item2
+3. item3
+
+hard break
+\n\n
+soft break
+  \n
+
+Unsolved Problems
