@@ -214,6 +214,14 @@ soft break
  $ service ssh restart
  ```
 
+* Count lines in a file
+ ```
+ $ wc -l FILENAME
+ ```
+
+* cron job
+ Notice that first parameter * means every minute.
+
 ####Raspberry Pi
 ------
 * Raspberry pi has a semi-graphical configure interface
