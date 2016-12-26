@@ -55,7 +55,7 @@
  ```
  and so on.
 
-####Mark Usages
+####Markdown Usages
 ------
 ```
 *italic*
